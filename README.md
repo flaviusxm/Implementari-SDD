@@ -1,26 +1,30 @@
-    # Implementari-SDD
+📚 Implementari-SDD
+Acest repository contine implementari pentru diverse structuri de date fundamentale si avansate, utile pentru o intelegere profunda a programarii si algoritmilor.
 
-    Acest fisier contine implementari pentru diverse structuri de date fundamentale 
-    si avansate, utile in intelegerea profunda a programarii si algoritmilor.
+📌 Structuri de date incluse :
+✅ Liste simplu si dublu inlantuite
 
-    📌 Structuri de date incluse sau planificate:
-    - Liste simplu si dublu inlantuite
-    - Cozi (FIFO)
-    - Stive (LIFO)
-    - Heap-uri / Priority Queues
-    - Arbori binari de cautare 
-    - Fenwick Tree 
-    - Arbori AVL
-    - Red-Black Tree 
-    - Hash Table cu tratarea coliziunilor
-    - Grafuri 
+✅ Cozi (FIFO)
 
-    🎯 Scopul proiectului:
-    Sa serveasca drept colectie educationala de implementari explicate clar, 
-    pas cu pas, pentru studenti, pasionati sau cei ce se pregatesc pentru interviuri tehnice.
+✅ Stive (LIFO)
 
-    ❓ Pentru intrebari, sugestii sau nelamuriri:
-    [mihai.pirjoleanu@gmail.com](mailto:mihai.pirjoleanu@gmail.com)
+✅ Heap-uri / Priority Queues
 
-    ⚠️ Nota:
-    Codul este oferit in scop educativ. Incurajez intelegerea logicii inainte de orice memorare.
+✅ Arbori binari de cautare (BST)
+
+✅ Fenwick Tree (Binary Indexed Tree)
+
+✅ Arbori AVL
+
+✅ Arbori Red-Black
+
+✅ Hash Table cu tratarea coliziunilor
+
+✅ Grafuri (liste de adiacenta, matrice de adiacenta, BFS/DFS etc.)
+
+❓ Intrebari, sugestii sau nelamuriri?
+📧 Contact: mihai.pirjoleanu@gmail.com
+
+⚠️ Nota
+Codul din acest repository este oferit in scop educativ.
+Este puternic recomandat sa intelegi logica din spatele implementarilor inainte de a incerca sa le memorezi.
