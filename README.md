@@ -54,4 +54,4 @@ Codul din acest repository este oferit **in scop educativ**. Este puternic recom
 
 ## 🛠️ Contributii
 
-Daca doresti sa contribui cu implementari noi, optimizari sau sugestii, te incurajez sa deschizi un pull request sau sa trimiti un mesaj. Comunitatea creste prin colaborare!
+Daca doresti sa contribui cu implementari noi, optimizari sau sugestii, te incurajez sa deschizi un pull request sau sa trimiti un mesaj.
