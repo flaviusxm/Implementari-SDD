@@ -6,11 +6,7 @@ Acest repository contine implementari in limbajul **C** pentru o gama larga de s
 
 ## 🔧 De ce C?
 
-Limbajul **C** este considerat una dintre cele mai bune alegeri pentru invatarea structurilor de date, deoarece:
-
-- 🧠 Ofera **control total asupra memoriei** prin pointeri si alocare dinamica  
-- 🧱 Permite **implementarea de la zero**, fara abstractii care ascund complexitatea  
-- 🚀 Asigura **performanta maxima**, fiind utilizat in sisteme critice si embedded  
+Limbajul **C** este considerat una dintre cele mai bune alegeri pentru invatarea structurilor de date.
 
 ### 📊 Comparatie cu alte limbaje
 
@@ -38,20 +34,4 @@ Limbajul **C** este considerat una dintre cele mai bune alegeri pentru invatarea
 ✅ Hash Table cu tratarea coliziunilor  
 ✅ Grafuri (liste de adiacenta, matrice de adiacenta, BFS/DFS etc.)
 
----
 
-## ❓ Intrebari sau sugestii?
-
-📧 Contact: [mihai.pirjoleanu@gmail.com](mailto:mihai.pirjoleanu@gmail.com)
-
----
-
-## ⚠️ Nota
-
-Codul din acest repository este oferit **in scop educativ**. Este puternic recomandat sa intelegi logica din spatele implementarilor inainte de a incerca sa le memorezi. Experimenteaza, modifica si testeaza — asa inveti cu adevarat!
-
----
-
-## 🛠️ Contributii
-
-Daca doresti sa contribui cu implementari noi, optimizari sau sugestii, te incurajez sa deschizi un pull request sau sa trimiti un mesaj.
