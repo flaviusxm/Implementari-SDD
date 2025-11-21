@@ -6,7 +6,7 @@
 // Disclaimer:
 // Orice structura de date trebuie înteleasa logic
 // Memorarea fara intelegere este ca alergatul în cerc — obosesti, dar nu ajungi nicaieri
-// Codul de fata este o idee simpla de implementare a unei Liste Simplu Inlantuite (LSI)
+// Codul de fata este o idee simpla de implementare pentru o Lista Simpla Inlantuita (LSI)
 
 typedef struct Afacere {
     int cui;
@@ -20,7 +20,7 @@ typedef struct NodListaSimpla {
     struct NodListaSimpla* next;
 } NodListaSimpla;
 
-// ------------------------ FUNCTII ------------------------
+
 
 Afacere infiinteazaAfacere(int cui, float profit, const char* adresa, const char* nume) {
     Afacere af;
@@ -122,7 +122,7 @@ void stergeListaSimpla(NodListaSimpla** cap) {
     printf("Lista a fost ștearsă complet.\n");
 }
 
-// Functie optionala
+
 Afacere citesteAfacereDeLaTastatura() {
     int cui;
     float profit;
@@ -140,7 +140,6 @@ Afacere citesteAfacereDeLaTastatura() {
     return infiinteazaAfacere(cui, profit, adresa, nume);
 }
 
-// ------------------------ MAIN ------------------------
 
 int main() {
     NodListaSimpla* lista = NULL;

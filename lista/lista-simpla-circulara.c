@@ -5,7 +5,7 @@
 // Disclaimer:
 // Orice structura de date trebuie înteleasa logic
 // Memorarea fara intelegere este ca alergatul în cerc — obosesti, dar nu ajungi nicaieri
-// Codul de fata este o idee simpla de implementare a unei Liste Simplu Inlantuite Circulara (LSIC)
+// Codul de fata este o idee simpla de implementare pentru o Lista Simplu Inlantuita Circulara (LSIC)
 
 
  typedef struct Afacere {
@@ -20,7 +20,6 @@ typedef struct NodListaSimpla{
     struct NodListaSimpla*next;
 }NodListaSimpla;
 
-// functie ce are ca scop creearea unui nod pentru lista simpla 
 
 NodListaSimpla*creareNod(Afacere af){
 NodListaSimpla*nod=(NodListaSimpla*)malloc(sizeof(NodListaSimpla));
@@ -34,7 +33,6 @@ nod->next=NULL;
 return nod;
 }
 
-//functie pentru inserarea unui nod la final de lista simpla 
 void inserareFinal(NodListaSimpla**cap,Afacere af){
     NodListaSimpla*nou=creareNod(af);
     if(*cap==NULL){
@@ -50,7 +48,7 @@ nou->next=*cap;
 }
 }
 
-//functie pentru afisarea listei simple circulare
+
 void afisareListaSimplaCirculara(NodListaSimpla*cap){
     if(cap==NULL){
         printf("\n\nLista este goala ! ! !\n\n");
@@ -133,7 +131,7 @@ void dezalocareLista(NodListaSimpla**cap){
     free((*cap)->af.numeProprietar);
     free((*cap));
     *cap=NULL;
-    //evitam dangling pointer 
+
     
 }
 
